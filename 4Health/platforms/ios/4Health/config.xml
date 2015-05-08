@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="filiperp.fourhealth" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <preference name="AllowInlineMediaPlayback" value="false" />
+    <preference name="BackupWebStorage" value="cloud" />
+    <preference name="DisallowOverscroll" value="false" />
+    <preference name="EnableViewportScale" value="false" />
+    <preference name="KeyboardDisplayRequiresUserAction" value="true" />
+    <preference name="MediaPlaybackRequiresUserAction" value="false" />
+    <preference name="SuppressesIncrementalRendering" value="false" />
+    <preference name="GapBetweenPages" value="0" />
+    <preference name="PageLength" value="0" />
+    <preference name="PaginationBreakingMode" value="page" />
+    <preference name="PaginationMode" value="unpaginated" />
+    <feature name="LocalStorage">
+        <param name="ios-package" value="CDVLocalStorage" />
+    </feature>
+    <feature name="Device">
+        <param name="ios-package" value="CDVDevice" />
+    </feature>
+    <feature name="Console">
+        <param name="ios-package" value="CDVLogger" />
+    </feature>
+    <feature name="StatusBar">
+        <param name="ios-package" value="CDVStatusBar" />
+        <param name="onload" value="true" />
+    </feature>
+    <preference name="StatusBarOverlaysWebView" value="true" />
+    <preference name="StatusBarStyle" value="lightcontent" />
+    <allow-intent href="itms:*" />
+    <allow-intent href="itms-apps:*" />
+    <preference name="EnableViewportScale" value="true" />
+    <preference name="MediaPlaybackRequiresUserAction" value="true" />
+    <preference name="Orientation" value="default" />
+    <preference name="BackupWebStorage" value="local" />
+    <splash height="480" src="./res/screen/ios/portrait-iphone.png" width="320" />
+    <splash height="320" src="./res/screen/ios/landscape-iphone.png" width="480" />
+    <splash height="960" src="./res/screen/ios/portrait-iphone@2x.png" width="640" />
+    <splash height="640" src="./res/screen/ios/landscape-iphone@2x.png" width="960" />
+    <splash height="1024" src="./res/screen/ios/portrait-ipad.png" width="768" />
+    <splash height="768" src="./res/screen/ios/landscape-ipad.png" width="1024" />
+    <splash height="2048" src="./res/screen/ios/portrait-ipad@2x.png" width="1536" />
+    <splash height="1536" src="./res/screen/ios/landscape-ipad@2x.png" width="2048" />
+    <splash height="1136" src="./res/screen/ios/portait-iphone5.png" width="640" />
+    <splash height="640" src="./res/screen/ios/landscape-iphone5.png" width="1136" />
+    <splash height="1334" src="./res/screen/ios/portait-iphone6.png" width="750" />
+    <splash height="750" src="./res/screen/ios/landscape-iphone6.png" width="1334" />
+    <splash height="2208" src="./res/screen/ios/portait-iphone6p.png" width="1242" />
+    <splash height="1242" src="./res/screen/ios/landscape-iphone6p.png" width="2208" />
+    <icon height="1024" src="./res/icon/ios/appstore.png" width="1024" />
+    <icon height="29" src="./res/icon/ios/29.png" width="29" />
+    <icon height="58" src="./res/icon/ios/29@2x.png" width="58" />
+    <icon height="40" src="./res/icon/ios/40.png" width="40" />
+    <icon height="80" src="./res/icon/ios/40@2x.png" width="80" />
+    <icon height="50" src="./res/icon/ios/50.png" width="50" />
+    <icon height="100" src="./res/icon/ios/50@2x.png" width="100" />
+    <icon height="60" src="./res/icon/ios/60.png" width="60" />
+    <icon height="120" src="./res/icon/ios/60@2x.png" width="120" />
+    <icon height="57" src="./res/icon/ios/57.png" width="57" />
+    <icon height="114" src="./res/icon/ios/57@2x.png" width="114" />
+    <icon height="72" src="./res/icon/ios/72.png" width="72" />
+    <icon height="144" src="./res/icon/ios/72@2x.png" width="144" />
+    <icon height="76" src="./res/icon/ios/76.png" width="76" />
+    <icon height="152" src="./res/icon/ios/76@2x.png" width="152" />
+    <icon height="48" src="./res/icon/ios/48.png" width="48" />
+    <icon height="64" src="./res/icon/ios/64.png" width="64" />
+    <icon height="320" src="./res/icon/ios/320.png" width="320" />
+    <name>4Health</name>
+    <description>
+        4Health APP
+    </description>
+    <author email="filiperp@gmail.com" href="http://gmcinco.com.br">
+        4Health Team
+    </author>
+    <content src="index.html" />
+    <access browserOnly="true" origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-intent href="*" />
+    <allow-navigation href="*" />
+    <access origin="*" />
+    <preference name="Fullscreen" value="true" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="BackgroundColor" value="0xf0f0f0" />
+    <icon src="./res/icon/android/icon.png" />
+</widget>

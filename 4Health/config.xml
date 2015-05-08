@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="filiperp.fourhealth" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>4Health</name>
+    <description>
+        4Health APP
+    </description>
+    <author email="filiperp@gmail.com" href="http://gmcinco.com.br">
+        4Health Team
+    </author>
+
+
+   <content src="index.html" />
+    <plugin name="cordova-plugin-whitelist" version="1" />
+    <access origin="*" />
+    <access origin="*" browserOnly="true" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-intent href="*" />
+
+
+
+    <allow-navigation href="*" />
+    <access origin="*" />
+
+
+
+     <!--GLOBAL PREFERENCES-->
+    <preference name="Fullscreen" value="true"/>
+
+
+    <preference name="DisallowOverscroll" value="true"/>
+
+
+    <preference name="BackgroundColor" value="0xf0f0f0"/>
+    <icon src="./res/icon/android/icon.png" />
+
+
+
+    
+     <platform name="android">
+        <allow-intent href="market:*" />
+        <feature name="NetworkStatus">
+            <param name="android-package" value="org.apache.cordova.networkinformation.NetworkManager" />
+        </feature>
+        <!-- PREFERENCES-->
+        <preference name="KeepRunning" value="false"/>
+        <preference name="SplashScreenDelay" value="4000"/>
+        <preference name="AndroidLaunchMode" value="singleTop"/>
+        <preference name="Orientation" value="default" />
+
+        <!-- ICONS-->
+        <splash density="land-xxxhdpi"    src="./res/screen/android/drawable-land-xxxhdpi.png"/>
+        <splash density="port-xxxhdpi"    src="./res/screen/android/drawable-port-xxxhdpi.png"/>
+        <splash density="land-xxhdpi"    src="./res/screen/android/drawable-land-xxhdpi.png"/>
+        <splash density="port-xxhdpi"    src="./res/screen/android/drawable-port-xxhdpi.png"/>
+        <splash density="land-xhdpi"    src="./res/screen/android/drawable-land-xhdpi.png"/>
+        <splash density="port-xhdpi"    src="./res/screen/android/drawable-port-xhdpi.png"/>
+        <splash density="port-mdpi"    src="./res/screen/android/drawable-port-mdpi.png"/>
+        <splash density="land-mdpi"    src="./res/screen/android/drawable-land-mdpi.png"/>
+        <splash density="land-ldpi"    src="./res/screen/android/drawable-land-ldpi.png"/>
+        <splash density="port-ldpi"    src="./res/screen/android/drawable-port-ldpi.png"/>
+        <splash density="port-hdpi"    src="./res/screen/android/drawable-port-hdpi.png"/>
+        <splash density="land-hdpi"    src="./res/screen/android/drawable-land-hdpi.png"/>
+
+
+
+        <icon density="xxxhdpi"    src="./res/icon/android/drawable-xxxhdpi.png"/>
+        <icon density="xxhdpi"    src="./res/icon/android/drawable-xxhdpi.png"/>
+        <icon density="xhdpi"    src="./res/icon/android/drawable-xhdpi.png"/>
+        <icon density="hdpi"    src="./res/icon/android/drawable-hdpi.png"/>
+        <icon density="mdpi"    src="./res/icon/android/drawable-mdpi.png"/>
+        <icon density="ldpi"    src="./res/icon/android/drawable-ldpi.png"/>
+
+        <icon density="ldpi" src="res/icon/android/drawable-ldpi.png" />
+        <icon density="mdpi" src="res/icon/android/drawable-mdpi.png" />
+        <icon density="hdpi" src="res/icon/android/drawable-hdpi.png" />
+        <icon density="xhdpi" src="res/icon/android/drawable-xhdpi.png" />
+
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+
+
+          <!-- PREFERENCES-->
+        <preference name="EnableViewportScale" value="true"/>
+        <preference name="MediaPlaybackRequiresUserAction" value="true"/>
+        <preference name="Fullscreen" value="true"/>
+        <preference name="Orientation" value="default" />
+
+        <preference name="BackupWebStorage" value="local"/>
+
+
+        <!-- ICONS-->
+        <splash width="320"     height="480"     src="./res/screen/ios/portrait-iphone.png"/>
+        <splash width="480"     height="320"     src="./res/screen/ios/landscape-iphone.png"/>
+        <splash width="640"     height="960"     src="./res/screen/ios/portrait-iphone@2x.png"/>
+        <splash width="960"     height="640"     src="./res/screen/ios/landscape-iphone@2x.png"/>
+        <splash width="768"     height="1024"    src="./res/screen/ios/portrait-ipad.png"/>
+        <splash width="1024"    height="768"     src="./res/screen/ios/landscape-ipad.png"/>
+        <splash width="1536"    height="2048"    src="./res/screen/ios/portrait-ipad@2x.png"/>
+        <splash width="2048"    height="1536"    src="./res/screen/ios/landscape-ipad@2x.png"/>
+        <splash width="640"     height="1136"    src="./res/screen/ios/portait-iphone5.png"/>
+        <splash width="1136"    height="640"     src="./res/screen/ios/landscape-iphone5.png"/>
+        <splash width="750"     height="1334"    src="./res/screen/ios/portait-iphone6.png"/>
+        <splash width="1334"    height="750"     src="./res/screen/ios/landscape-iphone6.png"/>
+        <splash width="1242"    height="2208"    src="./res/screen/ios/portait-iphone6p.png"/>
+        <splash width="2208"    height="1242"    src="./res/screen/ios/landscape-iphone6p.png"/>
+
+        <icon width="1024"  height="1024"  src="./res/icon/ios/appstore.png"/>
+        <icon width="29"    height="29"    src="./res/icon/ios/29.png"/>
+        <icon width="58"    height="58"    src="./res/icon/ios/29@2x.png"/>
+        <icon width="40"    height="40"    src="./res/icon/ios/40.png"/>
+        <icon width="80"    height="80"    src="./res/icon/ios/40@2x.png"/>
+        <icon width="50"    height="50"    src="./res/icon/ios/50.png"/>
+        <icon width="100"   height="100"   src="./res/icon/ios/50@2x.png"/>
+        <icon width="60"    height="60"    src="./res/icon/ios/60.png"/>
+        <icon width="120"   height="120"   src="./res/icon/ios/60@2x.png"/>
+        <icon width="57"    height="57"    src="./res/icon/ios/57.png"/>
+        <icon width="114"   height="114"   src="./res/icon/ios/57@2x.png"/>
+        <icon width="72"    height="72"    src="./res/icon/ios/72.png"/>
+        <icon width="144"   height="144"   src="./res/icon/ios/72@2x.png"/>
+        <icon width="76"    height="76"    src="./res/icon/ios/76.png"/>
+        <icon width="152"   height="152"   src="./res/icon/ios/76@2x.png"/>
+        <icon width="48"    height="48"    src="./res/icon/ios/48.png"/>
+        <icon width="64"    height="64"    src="./res/icon/ios/64.png"/>
+        <icon width="320"   height="320"   src="./res/icon/ios/320.png"/>
+        
+    </platform>
+</widget>
