@@ -88,12 +88,12 @@ var Calendar = function() {
 
             //predefined events
             $('#event_box').html("");
-            addEvent("My Event 1");
-            addEvent("My Event 2");
-            addEvent("My Event 3");
-            addEvent("My Event 4");
-            addEvent("My Event 5");
-            addEvent("My Event 6");
+            //addEvent("My Event 1");
+            //addEvent("My Event 2");
+            //addEvent("My Event 3");
+            //addEvent("My Event 4");
+            //addEvent("My Event 5");
+            //addEvent("My Event 6");
 
             $('#calendar').fullCalendar('destroy'); // destroy the calendar
             $('#calendar').fullCalendar({ //re-initialize the calendar
@@ -127,17 +127,20 @@ var Calendar = function() {
                 events: [{
                     title: 'All Day Event',
                     start: new Date(y, m, 1),
-                    backgroundColor: Metronic.getBrandColor('yellow')
+                    backgroundColor: Metronic.getBrandColor('yellow'),
+                    url: './profile.html',
                 }, {
                     title: 'Long Event',
                     start: new Date(y, m, d - 5),
                     end: new Date(y, m, d - 2),
-                    backgroundColor: Metronic.getBrandColor('green')
+                    backgroundColor: Metronic.getBrandColor('green'),
+                    url: './profile.html',
                 }, {
                     title: 'Repeating Event',
                     start: new Date(y, m, d - 3, 16, 0),
                     allDay: false,
-                    backgroundColor: Metronic.getBrandColor('red')
+                    backgroundColor: Metronic.getBrandColor('red'),
+                    url: './profile.html',
                 }, {
                     title: 'Repeating Event',
                     start: new Date(y, m, d + 4, 16, 0),
@@ -164,7 +167,7 @@ var Calendar = function() {
                     start: new Date(y, m, 28),
                     end: new Date(y, m, 29),
                     backgroundColor: Metronic.getBrandColor('yellow'),
-                    url: 'http://google.com/',
+                    url: './profile.html',
                 }]
             });
 
