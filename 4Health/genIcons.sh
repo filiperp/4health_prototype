@@ -15,7 +15,7 @@ set -x
 splash_base="./www/img/base-splash.png"
 icon_base="./www/img/base-icon.png"
 
-background="#3891bc"
+background="#FAD306"
 
 # Splash iOS and Android
 convert="convert $splash_base -background $background -gravity center"

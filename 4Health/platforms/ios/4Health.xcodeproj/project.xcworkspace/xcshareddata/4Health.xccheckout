@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>B90A835F-F858-4B13-BD7F-B580148F9A31</string>
+	<string>B65BCB93-0ADD-4AF5-8C87-019A6B9E8B20</string>
 	<key>IDESourceControlProjectName</key>
-	<string>4Health</string>
+	<string>4HEALTH</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>10CB57D8734DE27B4E3DAD807E7CC6445EC986FC</key>
 		<string>https://github.com/filiperp/4health_prototype.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>4Health/platforms/ios/4Health.xcodeproj</string>
+	<string>4Health/platforms/ios/4HEALTH.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>10CB57D8734DE27B4E3DAD807E7CC6445EC986FC</key>
