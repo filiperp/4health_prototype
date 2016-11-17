@@ -18,7 +18,7 @@
  */
 //
 //  main.m
-//  4HEALTH
+//  4Health
 //
 //  Created by ___FULLUSERNAME___ on ___DATE___.
 //  Copyright ___ORGANIZATIONNAME___ ___YEAR___. All rights reserved.

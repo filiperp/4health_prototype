@@ -1,0 +1,48 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "solutions.bbi.mdb2016"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "solutions.bbi.mdb2016"
+        },
+        "cordova-plugin-crosswalk-webview": {
+            "XWALK_VERSION": "22+",
+            "XWALK_LITEVERSION": "xwalk_core_library_canary:17+",
+            "XWALK_COMMANDLINE": "--disable-pull-to-refresh-effect",
+            "XWALK_MODE": "embedded",
+            "XWALK_MULTIPLEAPK": "true",
+            "PACKAGE_NAME": "solutions.bbi.mdb2016"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "solutions.bbi.mdb2016"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "solutions.bbi.mdb2016"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "solutions.bbi.mdb2016"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "solutions.bbi.mdb2016"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "solutions.bbi.mdb2016"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "solutions.bbi.mdb2016"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "solutions.bbi.mdb2016"
+        }
+    }
+}

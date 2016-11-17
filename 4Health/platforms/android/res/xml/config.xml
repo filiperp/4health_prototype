@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="solutions.bbi.mdb2016" version="2.2.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Keyboard">
+        <param name="android-package" value="io.ionic.keyboard.IonicKeyboard" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Device">
+        <param name="android-package" value="org.apache.cordova.device.Device" />
+    </feature>
+    <feature name="File">
+        <param name="android-package" value="org.apache.cordova.file.FileUtils" />
+        <param name="onload" value="true" />
+    </feature>
+    <allow-navigation href="cdvfile:*" />
+    <feature name="InAppBrowser">
+        <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
+    </feature>
+    <feature name="NetworkStatus">
+        <param name="android-package" value="org.apache.cordova.networkinformation.NetworkManager" />
+    </feature>
+    <feature name="SplashScreen">
+        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="StatusBar">
+        <param name="android-package" value="org.apache.cordova.statusbar.StatusBar" />
+        <param name="onload" value="true" />
+    </feature>
+    <name>4Health</name>
+    <description>
+        4Health
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        4Health
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-navigation href="*" />
+    <icon src="./res/icon/android/icon.png" />
+    <allow-intent href="market:*" />
+    <splash density="land-xxxhdpi" src="./res/screen/android/drawable-land-xxxhdpi.png" />
+    <splash density="port-xxxhdpi" src="./res/screen/android/drawable-port-xxxhdpi.png" />
+    <splash density="land-xxhdpi" src="./res/screen/android/drawable-land-xxhdpi.png" />
+    <splash density="port-xxhdpi" src="./res/screen/android/drawable-port-xxhdpi.png" />
+    <splash density="land-xhdpi" src="./res/screen/android/drawable-land-xhdpi.png" />
+    <splash density="port-xhdpi" src="./res/screen/android/drawable-port-xhdpi.png" />
+    <splash density="port-mdpi" src="./res/screen/android/drawable-port-mdpi.png" />
+    <splash density="land-mdpi" src="./res/screen/android/drawable-land-mdpi.png" />
+    <splash density="land-ldpi" src="./res/screen/android/drawable-land-ldpi.png" />
+    <splash density="port-ldpi" src="./res/screen/android/drawable-port-ldpi.png" />
+    <splash density="port-hdpi" src="./res/screen/android/drawable-port-hdpi.png" />
+    <splash density="land-hdpi" src="./res/screen/android/drawable-land-hdpi.png" />
+    <icon density="xxxhdpi" src="./res/icon/android/drawable-xxxhdpi.png" />
+    <icon density="xxhdpi" src="./res/icon/android/drawable-xxhdpi.png" />
+    <icon density="xhdpi" src="./res/icon/android/drawable-xhdpi.png" />
+    <icon density="hdpi" src="./res/icon/android/drawable-hdpi.png" />
+    <icon density="mdpi" src="./res/icon/android/drawable-mdpi.png" />
+    <icon density="ldpi" src="./res/icon/android/drawable-ldpi.png" />
+    <icon density="ldpi" src="res/icon/android/drawable-ldpi.png" />
+    <icon density="mdpi" src="res/icon/android/drawable-mdpi.png" />
+    <icon density="hdpi" src="res/icon/android/drawable-hdpi.png" />
+    <icon density="xhdpi" src="res/icon/android/drawable-xhdpi.png" />
+    <preference name="loglevel" value="DEBUG" />
+    <preference name="webView" value="org.crosswalk.engine.XWalkWebViewEngine" />
+    <preference name="xwalkVersion" value="22+" />
+    <preference name="xwalkLiteVersion" value="xwalk_core_library_canary:17+" />
+    <preference name="xwalkCommandLine" value="--disable-pull-to-refresh-effect" />
+    <preference name="xwalkMode" value="embedded" />
+    <preference name="xwalkMultipleApk" value="true" />
+    <preference name="android-minSdkVersion" value="16" />
+    <preference name="Fullscreen" value="true" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="BackgroundColor" value="0xf0f0f0" />
+    <preference name="KeepRunning" value="true" />
+    <preference name="SplashScreenDelay" value="4000" />
+    <preference name="AndroidLaunchMode" value="singleTop" />
+    <preference name="Orientation" value="default" />
+    <preference name="InAppBrowserStorageEnabled" value="true" />
+</widget>
